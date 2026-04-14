@@ -8,7 +8,8 @@
 
 ---@type vim.lsp.Config
 return {
-  cmd = { 'qmlls6' },		-- qmlls6 instead of qmlls cuz it isnt registered in path
-  filetypes = { 'qml', 'qmljs' },
-  root_markers = { '.git' },
+    cmd = { 'qmlls6' },		-- qmlls6 instead of qmlls cuz it isnt registered in path
+    filetypes = { 'qml', 'qmljs' },
+    root_markers = { '.git' },
+    single_file_support = true
 }
