@@ -19,8 +19,12 @@ return {
 	    "nvim-tree/nvim-web-devicons",
 	},
 	opts = {
-	    theme = "rose-pine",
+	    theme = "auto"
 	},
+    },
+    {
+	"nvim-tree/nvim-web-devicons",
+	opts = {}
     }
 }
 

@@ -10,6 +10,11 @@ return {
 		map_arrows = true
 	    }
 	})
-	require("mini.statusline").setup()
+
+	--require("mini.statusline").setup()
+	--- dependencies for statusline:
+	--require("mini.icons").setup()
+	require("mini.diff").setup()
+	require("mini.git").setup()
     end
 }

@@ -4,7 +4,7 @@ vim.opt.cursorline = true
 vim.opt.relativenumber = true
 vim.opt.clipboard:append("unnamedplus")	-- use system clipboard
 vim.opt.encoding = "utf-8"
-vim.opt.winborder = "rounded"
+---vim.opt.winborder = "rounded"
 
 -- code related (mostly)
 vim.opt.shiftwidth = 4		-- tab spacing
